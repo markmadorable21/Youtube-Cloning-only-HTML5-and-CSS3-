@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" type="text/css" href="styles/youtube.css" />
+    <link rel="stylesheet" type="text/css" href="styles/header.css" />
+    <link rel="stylesheet" type="text/css" href="styles/general.css" />
+    <link rel="stylesheet" type="text/css" href="styles/sidebar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header-main">
+      <div class="left-section">
+        <img src="icons/hamburger-menu.svg" class="hamburger-menu" />
+        <img src="icons/youtube-logo.svg" class="youtube-logo" />
+      </div>
+
+      <div class="middle-section">
+        <input type="text" class="search-bar-youtube" placeholder="Search" />
+        <button class="search-button">
+          <img src="icons/search.svg" class="search-icon" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="mic-button">
+          <img src="icons/voice-search-icon.svg" class="mic-icon" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-container">
+          <img src="icons/upload.svg" class="upload-icon" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img src="icons/youtube-apps.svg" class="youtube-apps-icon" />
+          <div class="tooltip">Youtube Apps</div>
+        </div>
+
+        <div class="notifications-cont">
+          <img src="icons/notifications.svg" class="notifications-icon" />
+          <div class="num-3">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img src="thumbnails/yawa.jpg" class="current-user-icon" />
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <div class="sidebar-items">
+        <img src="icons/home.svg" class="sidebar-icons" />
+        <p class="sidebar-icon-name">Home</p>
+      </div>
+      <div class="sidebar-items">
+        <img src="icons/explore.svg" class="sidebar-icons" />
+        <p class="sidebar-icon-name">Explore</p>
+      </div>
+      <div class="sidebar-items">
+        <img src="icons/subscriptions.svg" class="sidebar-icons" />
+        <p class="sidebar-icon-name">Subscriptions</p>
+      </div>
+      <div class="sidebar-items">
+        <img src="icons/originals.svg" class="sidebar-icons" />
+        <p class="sidebar-icon-name">Originals</p>
+      </div>
+      <div class="sidebar-items">
+        <img src="icons/youtube-music.svg" class="sidebar-icons" />
+        <p class="sidebar-icon-name">Youtube Music</p>
+      </div>
+      <div class="sidebar-items">
+        <img src="icons/library.svg" class="sidebar-icons" />
+        <p class="sidebar-icon-name">Library</p>
+      </div>
+    </div>
+
+    <!-- VIDEO GRID -->
+    <div class="yt-vid-grid">
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <a href="https://www.youtube.com" target="_blank">
+            <img class="yt-vid-thumbnail" src="thumbnails/korra.jpg" />
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/mark.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Korra Tan Douches Her Arse</p>
+            <p class="yt-vid-channel">Mark Madorable</p>
+            <p class="yt-vid-views">519K views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <a href="https://www.youtube.com" target="_blank">
+            <img class="yt-vid-thumbnail" src="thumbnails/bella2.jpg" />
+          </a>
+          <div class="video-time">30:00</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/raindy.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">
+              Bella Tan Touches Her Cookie in Front of My Salad
+            </p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">676K views · 2 days ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/wakebake.jpg" />
+          <div class="video-time">16:30</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/nigga.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">
+              NewLeaf's Successful Launch of its Bakery
+            </p>
+            <p class="yt-vid-channel">Nigga Raniel</p>
+            <p class="yt-vid-views">900M views · 2 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/rodolfo.jpg" />
+          <div class="video-time">5:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/belinda.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Lose Weight in 90 Days Using this Video</p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">519B views · 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/belinda.jpg" />
+          <div class="video-time">1:10:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/mark.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Why Women in Engineering are Burnt Out</p>
+            <p class="yt-vid-channel">Mark Madorable</p>
+            <p class="yt-vid-views">187M views · 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/bella.jpg" />
+          <div class="video-time">15:50</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/raindy.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Bella Tan Identifies Herself as a Cat</p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">1.5B views · 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <a href="https://www.youtube.com" target="_blank">
+            <img class="yt-vid-thumbnail" src="thumbnails/korra.jpg" />
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/mark.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Korra Tan Douches Her Arse</p>
+            <p class="yt-vid-channel">Mark Madorable</p>
+            <p class="yt-vid-views">519K views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/bella2.jpg" />
+          <div class="video-time">30:00</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/raindy.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">
+              Bella Tan Touches Her Cookie in Front of My Salad
+            </p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">676K views · 2 days ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/wakebake.jpg" />
+          <div class="video-time">16:30</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/nigga.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">
+              NewLeaf's Successful Launch of its Bakery
+            </p>
+            <p class="yt-vid-channel">Nigga Raniel</p>
+            <p class="yt-vid-views">900M views · 2 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/rodolfo.jpg" />
+          <div class="video-time">5:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/belinda.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Lose Weight in 90 Days Using this Video</p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">519B views · 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/belinda.jpg" />
+          <div class="video-time">1:10:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/mark.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Why Women in Engineering are Burnt Out</p>
+            <p class="yt-vid-channel">Mark Madorable</p>
+            <p class="yt-vid-views">187M views · 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/bella.jpg" />
+          <div class="video-time">15:50</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/raindy.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Bella Tan Identifies Herself as a Cat</p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">1.5B views · 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <a href="https://www.youtube.com" target="_blank">
+            <img class="yt-vid-thumbnail" src="thumbnails/korra.jpg" />
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/mark.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Korra Tan Douches Her Arse</p>
+            <p class="yt-vid-channel">Mark Madorable</p>
+            <p class="yt-vid-views">519K views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/bella2.jpg" />
+          <div class="video-time">30:00</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/raindy.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">
+              Bella Tan Touches Her Cookie in Front of My Salad
+            </p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">676K views · 2 days ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/wakebake.jpg" />
+          <div class="video-time">16:30</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/nigga.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">
+              NewLeaf's Successful Launch of its Bakery
+            </p>
+            <p class="yt-vid-channel">Nigga Raniel</p>
+            <p class="yt-vid-views">900M views · 2 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/rodolfo.jpg" />
+          <div class="video-time">5:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/belinda.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Lose Weight in 90 Days Using this Video</p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">519B views · 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/belinda.jpg" />
+          <div class="video-time">1:10:20</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/mark.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Why Women in Engineering are Burnt Out</p>
+            <p class="yt-vid-channel">Mark Madorable</p>
+            <p class="yt-vid-views">187M views · 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-vid-cont-main">
+        <div class="yt-vid-cont-1a">
+          <img class="yt-vid-thumbnail" src="thumbnails/bella.jpg" />
+          <div class="video-time">15:50</div>
+        </div>
+
+        <div class="yt-vid-cont-1b">
+          <div class="yt-vid-cont-2a">
+            <img class="yt-vid-thumbnail-circle" src="thumbnails/raindy.jpg" />
+          </div>
+
+          <div class="yt-vid-cont-2b">
+            <p class="yt-vid-title">Bella Tan Identifies Herself as a Cat</p>
+            <p class="yt-vid-channel">Raindy Joseph Lim</p>
+            <p class="yt-vid-views">1.5B views · 4 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Welcome to YouTube</h1>
+    <img src="thumbnails/cat.jpg" class="video-thumbnail" />
+    <img src="thumbnails/cat.jpg" class="video-thumbnail2" />
+    <input type="text" class="search-bar" placeholder="Search" />
+    <img src="thumbnails/cat.jpg" class="c-7a" />
+    <img src="thumbnails/cat.jpg" class="c-7c" />
+    <input
+      type="text"
+      class="search-bar-7e"
+      placeholder="Search Google or type a URL"
+    />
+    <p class="email">Email</p>
+    <input type="text" class="search-bar-7f" />
+
+    <p class="privacy">
+      By clicking <span class="agree-join">Agree & Join</span>, you agree to the
+      <span class="agree-join">Privacy Policy</span>.
+    </p>
+    <button class="agree-join-button">Agree & Join</button>
+
+    <img class="profile-picture" src="thumbnails/cat.jpg" />
+    <input type="text" class="text-box" placeholder="What's happening?" />
+    <button class="tweet-button">Tweet</button>
+    <input type="text" class="search-bar-2" placeholder="Search" />
+    <img class="cat-image" src="thumbnails/yawa.jpg" />
+    <p class="video-title">
+      Kadane's Algorithm to Maximum Sum Subarray Problem
+    </p>
+    <p class="channel-name">CS Dojo</p>
+    <p class="view-count">519K views · 5 years ago</p>
+
+    <input type="text" class="name-8a" placeholder="Name" />
+    <input type="text" class="email-8a" placeholder="Email" />
+
+    <p class="survey-8b">
+      Thanks for chatting with our customer support. Would you like to take our
+      quick survey?
+    </p>
+
+    <button class="yes-button-8b">Yes</button>
+    <button class="no-button-8a">No</button>
+
+    <img class="google-logo-8c" src="thumbnails/Google_2015_logo.svg" />
+
+    <input
+      type="text"
+      class="search-bar-7e"
+      placeholder="Search Google or type a URL"
+    />
+    <p style="margin: 20px 0 10px 0; color: blue">8d Challenge Exercises</p>
+    <input type="text" class="tf-8d-fname" placeholder="First Name" />
+    <input type="text" class="tf-8d-lname" placeholder="Last Name" />
+    <input type="text" class="tf-8d-email" placeholder="Email" />
+    <button class="signup-8d">Sign Up</button>
+
+    <p style="margin: 20px 0 10px 0; color: blue">8e Challenge Exercises</p>
+    <p class="request-ride-title">Request a ride now</p>
+    <input
+      type="text"
+      class="tf-8e-location"
+      placeholder="Enter pickup location"
+    />
+    <input
+      type="text"
+      class="tf-8e-destination"
+      placeholder="Enter destination"
+    />
+    <button class="request-bt-8e">Request now</button>
+    <button class="later-bt-8e">Schedule for later</button>
+
+    <p style="margin: 20px 0 10px 0; color: blue">DIV Lecture</p>
+
+    <input type="text" class="tf-div-lecture" placeholder="Search" />
+
+    <div class="video-container">
+      <img class="cat-image" src="thumbnails/yawa.jpg" />
+      <p class="video-title">
+        Kadane's Algorithm to Maximum Sum Subarray Problem
+      </p>
+      <p class="channel-name">Mark Madorable</p>
+      <p class="view-count">519K views · 5 years ago</p>
+    </div>
+
+    <div class="video-container">
+      <img class="cat-image" src="thumbnails/cat.jpg" />
+      <p class="video-title">Badalee Suck Deck's Yookaito</p>
+      <p class="channel-name">CS Dojo</p>
+      <p class="view-count">519K views · 5 years ago</p>
+    </div>
+
+    <div class="square-9a"></div>
+    <div class="circle-9b"></div>
+    <div class="satisfied-9c">
+      <p class="satisfied-text-9c">Satisfied with our service?</p>
+      <button class="yes-button-9c">Yes</button
+      ><button class="no-button-9c">No</button>
+    </div>
+
+    <div class="twopar-9d">
+      <p class="firstpar-9d">Install Youtube Music</p>
+      <p class="secondpar-9d">
+        Add Youtube Music to your desktop for quick and easy access
+      </p>
+    </div>
+    <div class="tweet-9e">
+      <img class="profile-picture" src="thumbnails/cat.jpg" />
+      <input type="text" class="text-box" placeholder="What's happening?" />
+      <button class="tweet-button">Tweet</button>
+    </div>
+
+    <p
+      style="
+        margin: 20px 0 10px 0;
+        color: blue;
+        font-size: 20px;
+        font-weight: bold;
+      "
+    >
+      9f Challenge Exercises (Facebook Friend Suggestions)
+    </p>
+    <div class="add-friend-9f">
+      <img class="add-friend-img" src="thumbnails/nigga.jpg" />
+      <p class="name-9f">Nigga Brotha</p>
+      <p class="mutual-9f">2 mutual friends</p>
+      <button class="add-friend-bt-9f">Add Friend</button>
+    </div>
+
+    <div class="add-friend-9f">
+      <img class="add-friend-img" src="thumbnails/belinda.jpg" />
+      <p class="name-9f">Bilenda</p>
+      <p class="mutual-9f">2 mutual friends</p>
+      <button class="add-friend-bt-9f">Add Friend</button>
+    </div>
+    <div class="add-friend-9f">
+      <img class="add-friend-img" src="thumbnails/raindy.jpg" />
+      <p class="name-9f">Bayot Buang</p>
+      <p class="mutual-9f">2 mutual friends</p>
+      <button class="add-friend-bt-9f">Add Friend</button>
+    </div>
+    <div class="add-friend-9f">
+      <img class="add-friend-img" src="thumbnails/rodolfo.jpg" />
+      <p class="name-9f">Raul</p>
+      <p class="mutual-9f">2 mutual friends</p>
+      <button class="add-friend-bt-9f">Add Friend</button>
+    </div>
+    <div class="add-friend-9f">
+      <img class="add-friend-img" src="thumbnails/korra.jpg" />
+      <p class="name-9f">Korra Tan</p>
+      <p class="mutual-9f">2 mutual friends</p>
+      <button class="add-friend-bt-9f">Add Friend</button>
+    </div>
+    <p class="challenge-title">9h Challenge Exercises (Google Search)</p>
+    <div class="google-search-container-9h">
+      <div>
+        <img class="google-logo-9h" src="thumbnails/Google_2015_logo.svg" />
+      </div>
+      <div>
+        <input
+          type="text"
+          class="search-bar-9h"
+          placeholder="Search Google or type a URL"
+        />
+      </div>
+      <div>
+        <button class="google-bt-9h">Google Search</button>
+        <button class="google-bt-9h">I'm Feeling Lucky</button>
+      </div>
+    </div>
+
+    <p class="challenge-title">Challenge Exercise 13a</p>
+    <div class="main-flexbox-13a">
+      <div class="item1-13a"><p class="black-bg-13a">item1</p></div>
+      <div class="item2-13a"></div>
+    </div>
+
+    <p class="challenge-title">Challenge Exercise 13b</p>
+    <div class="main-flexbox-13b">
+      <div class="item1-13a"></div>
+      <div class="item2-13a">
+        <p class="row1-13b">row1</p>
+        <div class="row2-13b">
+          <p class="black-bg-13a">row2</p>
+          <p class="black-bg-13a">row2</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="challenge-title">Challenge Exercise 13d</p>
+
+    <!-- MAIN CONTAINER  -->
+    <div class="main-cont-13d">
+      <!-- ALL INBOXES TITLE-->
+      <p class="all-inboxes-13d">ALL INBOXES</p>
+      <!-- MAIL CONTENT ITEM CONTAINER  -->
+      <div class="mail-entry-cont-13d">
+        <!-- PROFILE IMAGE CIRCULAR  -->
+        <div class="profile-cont-13d">
+          <img src="thumbnails/fowler.png" class="profile-img-13d" />
+        </div>
+        <!-- MAIL DETAILS CONTAINER-->
+        <div class="mail-details-entry-13d">
+          <div class="row1-13d">
+            <p class="name-13d">Tony Fowler</p>
+            <p class="time-13d">1:02PM</p>
+          </div>
+          <p class="title-13d">Wake and Bake Babe!</p>
+          <p class="content-13d">
+            Ahh daddeh meron kang lemon? Kati phukeko...
+          </p>
+        </div>
+      </div>
+
+      <div class="mail-entry-cont-13d">
+        <!-- PROFILE IMAGE CIRCULAR  -->
+        <div class="profile-cont-13d">
+          <img src="thumbnails/mia.jpg" class="profile-img-13d" />
+        </div>
+        <!-- MAIL DETAILS CONTAINER-->
+        <div class="mail-details-entry-13d">
+          <div class="row1-13d">
+            <p class="name-13d">Mia Cull-ifa</p>
+            <p class="time-13d">2:48PM</p>
+          </div>
+          <p class="title-13d">OF Collab Invitation!</p>
+          <p class="content-13d">
+            Earn $5K for a 20-min video rimming your arse...
+          </p>
+        </div>
+      </div>
+
+      <div class="mail-entry-cont-13d">
+        <!-- PROFILE IMAGE CIRCULAR  -->
+        <div class="profile-cont-13d">
+          <img src="thumbnails/abs-cbn.png" class="profile-img-13d" />
+        </div>
+        <!-- MAIL DETAILS CONTAINER-->
+        <div class="mail-details-entry-13d">
+          <div class="row1-13d">
+            <p class="name-13d">ABS-CBN</p>
+            <p class="time-13d">6:26PM</p>
+          </div>
+          <p class="title-13d">CEMPA signed by Pres. Marcos, Jr.!</p>
+          <p class="content-13d">
+            Only in Philippines, savings are being taxed...
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

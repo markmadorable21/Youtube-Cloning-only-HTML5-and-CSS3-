@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grid Practice</title>
+    <link rel="stylesheet" href="grid.css" />
+  </head>
+  <body style="margin-bottom: 100px">
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: lightblue">Div 1</div>
+      <div style="background-color: lightpink">
+        Div 2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        margin-top: 10px;
+      "
+    >
+      <div style="background-color: lightblue">100px</div>
+      <div style="background-color: lightpink">
+        100px
+        <p>text</p>
+      </div>
+      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightpink">100px</div>
+    </div>
+
+    <div
+      style="display: grid; grid-template-columns: 200px 75px; margin-top: 10px"
+    >
+      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightpink">75px</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-top: 10px;
+      "
+    >
+      <div style="background-color: lightblue">50px</div>
+      <div style="background-color: lightpink">1fr</div>
+      <div style="background-color: lightgreen">75px</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 10px;
+        gap: 10px 20px;
+      "
+    >
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 10px;
+        column-gap: 20px;
+        row-gap: 40px;
+      "
+    >
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightpink; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightpink; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightpink; height: 200px">1fr</div>
+    </div>
+
+    <div class="fb-main-grid">
+      <div class="fb-main-cont">
+        <div class="fb-1a-submain">
+          <img
+            class="fb-1a-submain-img"
+            src="thumbnails/korra.jpg"
+            alt="Profile Picture"
+          />
+        </div>
+
+        <div class="fb-1b-submain-grid">
+          <div class="fb-1b-1">
+            <p class="fb-1b-1-name">Korra</p>
+          </div>
+
+          <div class="fb-1b-2-grid">
+            <div class="fb-1b-2-1">
+              <img
+                class="fb-1b-2-1-img"
+                src="thumbnails/mark.jpg"
+                alt="Oliver's Profile Picture"
+              />
+            </div>
+            <div class="fb-1b-2-2">
+              <p class="fb-1b-2-2-text">2 mutual friends</p>
+            </div>
+          </div>
+          <div class="fb-1b-3">
+            <button class="add-friend-button">Add Friend</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="fb-main-cont">
+        <div class="fb-1a-submain">
+          <img
+            class="fb-1a-submain-img"
+            src="thumbnails/bella.jpg"
+            alt="Profile Picture"
+          />
+        </div>
+
+        <div class="fb-1b-submain">
+          <div class="fb-1b-1">
+            <p class="fb-1b-1-name">Bella</p>
+          </div>
+
+          <div class="fb-1b-2">
+            <div class="fb-1b-2-1"></div>
+            <div class="fb-1b-2-2"></div>
+          </div>
+          <div class="fb-1b-3">
+            <button>Add Friend</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="fb-main-cont">
+        <div class="fb-1a-submain">
+          <img
+            class="fb-1a-submain-img"
+            src="thumbnails/belinda.jpg"
+            alt="Profile Picture"
+          />
+        </div>
+
+        <div class="fb-1b-submain">
+          <div class="fb-1b-1">
+            <p class="fb-1b-1-name">Rex</p>
+          </div>
+
+          <div class="fb-1b-2">
+            <div class="fb-1b-2-1"></div>
+            <div class="fb-1b-2-2"></div>
+          </div>
+          <div class="fb-1b-3">
+            <button>Add Friend</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

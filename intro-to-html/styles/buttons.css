@@ -1,0 +1,247 @@
+.subscribe-button {
+  background-color: #c80000;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 10px 10px;
+  transition: opacity 0.1s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.6;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  color: rgb(41, 118, 211); /*color of the button*/
+  padding: 9px 15px;
+  border-radius: 2px;
+  margin: 10px 30px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white; /*text color*/
+}
+
+.join-button:active {
+  background-color: rgb(41, 118, 211);
+  color: white; /*text color*/
+  opacity: 0.6;
+}
+
+.tweet-button {
+  background-color: rgb(2, 137, 255);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.uber-button {
+  background-color: black;
+  color: white; /*text color*/
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black; /*text color*/
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white; /*text color*/
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.bootstrap1-button {
+  background-color: rgb(121, 82, 179);
+  color: white; /*text color*/
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.bootstrap2-button {
+  background-color: white;
+  color: rgb(108, 117, 125); /*text color*/
+  border: solid 1px rgb(108, 117, 125);
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.linkedin1-button {
+  background-color: rgb(10, 102, 194);
+  color: white; /*text color*/
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.linkedin2-button {
+  background-color: white;
+  color: rgb(10, 102, 194); /*text color*/
+  border: solid 1px rgb(10, 102, 194);
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.buy-now-button {
+  background-color: rgb(255, 164, 28);
+  color: black; /*text color*/
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.pagination-bt-back-next {
+  background-color: rgba(225, 225, 225, 0.8);
+  color: black; /*text color*/
+  border: solid 1px rgba(0, 0, 0, 0.4);
+  padding: 10px 8px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 10px;
+  font-size: 16px;
+  transition: opacity 0.15s;
+}
+
+.pagination-bt-back-next:hover {
+  opacity: 0.8;
+}
+
+.pagination-bt-back-next:active {
+  opacity: 0.6;
+}
+
+.pagination-bt {
+  background: none;
+  color: rgb(0, 0, 0); /*text color*/
+  border: none;
+  padding: 10px 4px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 16px;
+  transition: opacity 0.15s;
+  text-decoration: underline;
+  transition: opacity 0.15s;
+}
+
+.pagination-bt:hover {
+  opacity: 0.8;
+}
+
+.pagination-bt:active {
+  opacity: 0.6;
+}
+
+.stretch-button {
+  background-color: green;
+  color: white; /*text color*/
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: padding 1s, margin 1s, background-color 1s;
+  margin-left: 50px;
+}
+
+.stretch-button:hover {
+  padding: 50px 100px;
+  margin-left: 50px;
+  background-color: red;
+}
+
+.shadow-button {
+  background-color: green;
+  color: white; /*text color*/
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+.shadow-button:active {
+  margin-left: 13px;
+  margin-top: 13px;
+  box-shadow: none;
+}
+
+.margin-padding-button {
+  background-color: white;
+  color: green; /*text color*/
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 2px;
+  border: solid 1px green;
+  transition: margin 0.15s, padding 0.15s, background-color 0.15s, color 0.15s,
+    border 0.15s;
+}
+
+.margin-padding-button:hover {
+  margin: 0 1px;
+  padding: 11px 25px;
+  background-color: green;
+  color: white; /*text color*/
+  border: solid 1px white;
+}
+
+.margin-padding-button:active {
+  opacity: 0.8;
+}

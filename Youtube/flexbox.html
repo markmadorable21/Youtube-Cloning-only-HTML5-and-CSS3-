@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Flexbox Practice</title>
+    <link rel="stylesheet" href="styles/flexbox.css" />
+    <link rel="stylesheet" type="text/css" href="styles/general.css" />
+  </head>
+  <body style="padding-bottom: 1000px">
+    <h1>CSS Flexbox Practice</h1>
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: lightblue">Div 1 text</div>
+      <div style="background-color: lightpink">
+        Div 2
+        <p>Div 2 text</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; flex: 1">Flex 1</div>
+    </div>
+
+    <div
+      style="
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border: solid 1px black;
+        justify-content: space-evenly; /* default value is start for justify-content */
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">Flex 1</div>
+      <div style="background-color: lightblue; width: 100px">Flex 2</div>
+    </div>
+
+    <div
+      style="
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border: solid 1px black;
+        justify-content: space-evenly; /* default value is start for justify-content */
+        align-items: center; /* default value is stretch for align-items */
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">Flex 1</div>
+      <div style="background-color: lightblue; width: 100px">Flex 2</div>
+    </div>
+
+    <p class="challenge-title">Flexbox Challenge 12a</p>
+    <div class="flexbox-challenge-12a">
+      <div class="flexbox-challenge-12a-item1">200px</div>
+      <div class="flexbox-challenge-12a-item2">75px</div>
+    </div>
+
+    <p class="challenge-title">Flexbox Challenge 12b</p>
+    <div class="flexbox-challenge-12b">
+      <div class="flexbox-challenge-12b-item1">50px</div>
+      <div class="flexbox-challenge-12b-item2">flex 1</div>
+      <div class="flexbox-challenge-12b-item3">75px</div>
+    </div>
+
+    <p class="challenge-title">Flexbox Challenge 12c</p>
+    <div class="flexbox-challenge-12c">
+      <div class="flexbox-challenge-12c-item1">item1</div>
+      <div class="flexbox-challenge-12c-item2">item2</div>
+      <div class="flexbox-challenge-12c-item3">item3</div>
+      <div class="flexbox-challenge-12c-item4">item4</div>
+    </div>
+
+    <p class="challenge-title">Flexbox Challenge 12d</p>
+    <div class="flexbox-challenge-12d">
+      <div class="flexbox-challenge-12d-item1">item1</div>
+      <div class="flexbox-challenge-12d-item2">item2</div>
+    </div>
+
+    <p class="challenge-title">Flexbox Challenge 12e</p>
+    <div class="flexbox-challenge-12e">
+      <div class="flexbox-challenge-12e-item1">
+        <p>Home</p>
+        <button class="flexbox-challenge-12e-button">14</button>
+      </div>
+      <div class="flexbox-challenge-12e-item2">
+        <p>Notifications</p>
+        <button class="flexbox-challenge-12e-button">3</button>
+      </div>
+      <div class="flexbox-challenge-12e-item3">
+        <p>Messages</p>
+        <button class="flexbox-challenge-12e-button">5</button>
+      </div>
+    </div>
+
+    <p class="challenge-title">Flexbox Challenge 12g</p>
+    <div class="flexbox-challenge-12g">
+      <div class="flexbox-challenge-12g-item">
+        <div class="left-section-12g">
+          <img class="profile-pic-12g" src="/thumbnails/korra.jpg" alt="Cat" />
+        </div>
+        <div class="middle-section-12g">
+          <p class="name-12g">Korra</p>
+          <p class="description-12g">Waterbender</p>
+          <p class="popularity-12g">Popular</p>
+        </div>
+        <div class="right-section-12g">
+          <button class="follow-button-12g">Follow</button>
+        </div>
+      </div>
+
+      <div class="flexbox-challenge-12g-item">
+        <div class="left-section-12g">
+          <img class="profile-pic-12g" src="/thumbnails/bella.jpg" alt="Cat" />
+        </div>
+        <div class="middle-section-12g">
+          <p class="name-12g">Bella</p>
+          <p class="description-12g">Avatar</p>
+          <p class="popularity-12g">Popular</p>
+        </div>
+        <div class="right-section-12g">
+          <button class="follow-button-12g">Follow</button>
+        </div>
+      </div>
+
+      <div class="flexbox-challenge-12g-item">
+        <div class="left-section-12g">
+          <img class="profile-pic-12g" src="/thumbnails/raindy.jpg" alt="Cat" />
+        </div>
+        <div class="middle-section-12g">
+          <p class="name-12g">Raindy</p>
+          <p class="description-12g">Human</p>
+          <p class="popularity-12g">Poor</p>
+        </div>
+        <div class="right-section-12g">
+          <button class="follow-button-12g">Follow</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="challenge-title">Flexbox Challenge 12f</p>
+    <div class="flexbox-challenge-12f">
+      <div class="left-section-12f">
+        <p class="home-12f">Home</p>
+      </div>
+
+      <div class="middle-section-12f">
+        <input class="search-12f" type="text" placeholder="Search" />
+      </div>
+
+      <div class="right-section-12f">
+        <button class="download-bt-12f">Download</button>
+      </div>
+    </div>
+  </body>
+</html>

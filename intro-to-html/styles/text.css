@@ -1,0 +1,81 @@
+p {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center; /*center the text page-based width*/
+}
+
+.video-title1 {
+  font-size: 18px;
+  font-weight: bold;
+  width: 280px; /*width of the text. It will cut off the text if it's too long*/
+  line-height: 24px; /*line between two or more lines vertically*/
+  margin-bottom: 5px; /*margin on the bottom of the text*/
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96); /*color of the text*/
+  margin-bottom: 20px; /*margin on the bottom of the text*/
+}
+
+.video-author {
+  font-size: 14px;
+  color: rgb(96, 96, 96); /*color of the text*/
+  margin-bottom: 20px;
+}
+
+.video-description {
+  font-size: 14px;
+  color: rgb(96, 96, 96); /*color of the text*/
+  width: 280px; /*width of the text. It will cut off the text if it's too long*/
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  padding: 18px 0;
+  text-align: center;
+}
+
+.span-text {
+  cursor: pointer;
+  margin-left: 12px;
+}
+.span-text:hover {
+  text-decoration: underline;
+}
+
+.apple-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: larger;
+  color: blue;
+  font-weight: bold;
+}
+
+.tahoma-text {
+  font-family: Tahoma;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.verdana-text {
+  font-family: Verdana;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: bold;
+}

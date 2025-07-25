@@ -1,0 +1,71 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.fb-main-grid {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+.fb-main-cont {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.fb-1a-submain-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fb-1b-submain-grid {
+  display: grid;
+  grid-template-rows: 22px 22px 35px;
+  margin: 5px 0 0 8px;
+}
+
+.fb-1b-2-1-img {
+  width: 100%;
+  height: 20px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.fb-1b-2-grid {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.fb-1b-2-2-text {
+  font-size: 10px;
+}
+
+.fb-1b-1-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.fb-1b-2-2 {
+  margin-left: 5px;
+}
+
+.add-friend-button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.fb-1b-3 {
+  margin: 5px 0;
+}
